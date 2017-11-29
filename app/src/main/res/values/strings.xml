@@ -13,4 +13,8 @@
     <string name="password">password</string>
     <string name="Signin">Sign in</string>
     <string name="descLogo">logo awal slify</string>
+
+    <!-- yang ada di signup page -->
+    <string name="email">email</string>
+    <string name="upassword">ulangi password</string>
 </resources>
