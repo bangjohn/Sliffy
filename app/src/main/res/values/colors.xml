@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3D66FF</color>
-    <color name="colorPrimaryDark">#3D66FF</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#72BCDA</color>
+    <color name="colorPrimaryDark">#4e4e4e</color>
+    <color name="colorAccent">#9e9e9e</color>
+
+    <!-- buat tombol login-->
+    <color name="colorBtnLogin">#00ffffff</color>
+    <color name="BtnLogin_pressed">#abffffff</color>
+    <color name="fb">#4A6DA8</color>
+    <color name="google">@android:color/background_light</color>
+    <color name="CreateAccount">@android:color/darker_gray</color>
+
+    <!-- buat inputan login -->
+    <color name="loginInput">#dcffffff</color>
+
 </resources>

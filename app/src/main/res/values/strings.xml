@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Slify</string>
+
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <!-- yang ada di login page -->
+    <string name="facebook_button">Sign in with Facebook</string>
+    <string name="google_button">Sign in with Google</string>
+    <string name="create_account">Create an Account</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="Signin">Sign in</string>
+    <string name="descLogo">logo awal slify</string>
 </resources>
