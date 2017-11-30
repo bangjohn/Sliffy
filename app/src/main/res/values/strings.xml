@@ -17,4 +17,6 @@
     <!-- yang ada di signup page -->
     <string name="email">email</string>
     <string name="upassword">ulangi password</string>
+    <string name="register">Register</string>
+    <string name="prev">Previous</string>
 </resources>

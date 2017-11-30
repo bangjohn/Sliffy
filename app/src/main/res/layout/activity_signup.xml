@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,12 +8,31 @@
     tools:context="com.bekicode.slify.Signup">
 
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ic_add_a_photo_black_24dp"
+            android:contentDescription="@string/descLogo"
+            android:tint="@color/loginInput"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="130dp">
+        android:layout_marginTop="180dp">
 
         <EditText
             android:id="@+id/email"
@@ -49,7 +69,7 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="225dp">
+        android:layout_marginTop="275dp">
         <EditText
             android:id="@+id/password"
             android:layout_width="140dp"
@@ -77,6 +97,45 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
             android:textColor="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/lgnFb"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="@string/prev"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@android:color/white"
+            app:cornerRadius="4dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/sup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="@android:color/darker_gray"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            app:cornerRadius="4dp"
+            app:buttonColor="@color/google"/>
+
     </LinearLayout>
 
 </RelativeLayout>
